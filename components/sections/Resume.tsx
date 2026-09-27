@@ -24,7 +24,7 @@ export function Resume() {
                   className="absolute -left-[1.65rem] top-1.5 h-2.5 w-2.5 rounded-full border-2 border-[var(--color-bg)] bg-[var(--color-accent)]"
                 />
                 <p className="font-[family-name:var(--font-technical)] text-xs text-[var(--color-text-muted)]">
-                  {entry.start} &ndash; {entry.end} {entry.location && `· ${entry.location}`}
+                  {entry.start} &ndash; {entry.end}
                 </p>
                 <h4 className="mt-1 text-base font-semibold">
                   {entry.role} &middot;{" "}
@@ -57,49 +57,44 @@ export function Resume() {
               Education
             </h3>
             <div className="mt-4 space-y-4">
-              {educationList.map((edu) => (
-                <div key={edu.degree}>
-                  <p className="font-[family-name:var(--font-technical)] text-xs text-[var(--color-text-muted)]">
-                    {edu.start} &ndash; {edu.end}
-                  </p>
-                  <p className="font-medium text-[var(--color-text)]">{edu.degree}</p>
-                  {edu.institutionUrl ? (
-                    <a
-                      href={edu.institutionUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-[var(--color-accent)] hover:underline"
-                    >
-                      {edu.institution}
-                    </a>
-                  ) : (
-                    <p className="text-sm text-[var(--color-accent)]">{edu.institution}</p>
-                  )}
-                </div>
-              ))}
+              <div>
+                <p className="font-[family-name:var(--font-technical)] text-xs text-[var(--color-text-muted)]">
+                  {education.start} &ndash; {education.end}
+                </p>
+                <p className="font-medium text-[var(--color-text)]">{education.degree}</p>
+                {education.institutionUrl ? (
+                  <a
+                    href={education.institutionUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-[var(--color-accent)] hover:underline"
+                  >
+                    {education.institution}
+                  </a>
+                ) : (
+                  <p className="text-sm text-[var(--color-accent)]">{education.institution}</p>
+                )}
+                {education.note && (
+                  <p className="mt-1 text-xs text-[var(--color-text-muted)]">{education.note}</p>
+                )}
+              </div>
             </div>
 
             {/* Publications */}
-            <h4 className="mt-6 font-[family-name:var(--font-technical)] text-xs uppercase tracking-wide text-[var(--color-text-muted)]">
-              Publications
-            </h4>
-            <ul className="mt-2 space-y-2 text-sm text-[var(--color-text-muted)]">
-              {publications.map((pub) => (
-                <li key={pub.title} className="leading-snug">
-                  &bull; {pub.title}{" "}
-                  {pub.url && (
-                    <a
-                      href={pub.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block text-xs text-[var(--color-accent)] hover:underline"
-                    >
-                      DOI: {pub.doi}
-                    </a>
-                  )}
-                </li>
-              ))}
-            </ul>
+            {education.publications && education.publications.length > 0 && (
+              <>
+                <h4 className="mt-6 font-[family-name:var(--font-technical)] text-xs uppercase tracking-wide text-[var(--color-text-muted)]">
+                  Publications
+                </h4>
+                <ul className="mt-2 space-y-2 text-sm text-[var(--color-text-muted)]">
+                  {education.publications.map((pub: string, idx: number) => (
+                    <li key={idx} className="leading-snug">
+                      &bull; {pub}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </Card>
 
           {/* Certifications Card */}

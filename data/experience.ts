@@ -1,87 +1,69 @@
 import { Certification, EducationEntry, ExperienceEntry } from "./types";
 
-// Sourced from resume + LinkedIn export (public/cv/Profile.pdf, 2026-08-07).
+// Sourced from resume (Resume_OYOLA_ANGELY_2026.pdf)
 export const experience: ExperienceEntry[] = [
   {
-    role: "Software Engineer",
-    company: "YOUR Campus",
-    companyUrl: "https://your-campus.com/",
-    start: "Mar 2022",
+    role: "Automotive Software Embedded Engineer",
+    company: "Teoresi S.p.A.",
+    companyUrl: "https://www.teoresigroup.com/",
+    start: "Feb 2022",
     end: "Present",
     description:
-      "Core team member on in-house software architecture, execution, and deployment for a campus platform serving university students in Bangladesh with a smart laundry service, a vending machine service, and an e-commerce service.",
+      "Led internationally distributed automotive projects involving 15+ engineers and 10+ cross-functional stakeholders. Owned 6+ production-grade embedded C applications for OEMs/Tier-1s (Ferrari, Aston Martin, Brembo, Bosch) under MISRA C and ISO 26262. Engineered full-stack AUTOSAR solutions (ARM MCUs), developed Python/CAPL ECU testing tools (60%+ manual testing reduction), and designed a real-time 3D gaze estimation deep learning model for driver monitoring.",
   },
   {
-    role: "Web Developer",
-    company: "Upwork (Freelance)",
-    companyUrl: "https://www.upwork.com/freelancers/~017a6b074dbd601705",
-    start: "May 2021",
-    end: "Present",
-    description: "Freelance front-end, WordPress, and Shopify development for clients worldwide.",
-  },
-  {
-    role: "Junior Software Developer",
-    company: "Germania Holdings Ltd.",
-    companyUrl: "https://ghl-bd.com/",
-    start: "Jul 2021",
-    end: "Nov 2022",
+    role: "Senior Business Software Developer",
+    company: "Ecuaquimica Group",
+    start: "Jul 2015",
+    end: "Aug 2019",
     description:
-      "Worked on the technical team behind SnacKeeper, a pioneer smart vending machine service in Bangladesh — design, implementation, backend operations, server management, DevOps, and keeping the system running 24/7.",
+      "Engineered an intelligent purchasing and demand forecasting platform using data-driven projection techniques, achieving a 70% reduction in excess inventory while improving forecast accuracy, cash flow, and storage efficiency.",
   },
   {
-    role: "Executive Developer",
-    company: "Dokmi BD",
-    companyUrl: "https://dokmi.com/",
-    start: "Aug 2020",
-    end: "Jun 2021",
+    role: "AI Research Assistant",
+    company: "CIDIS",
+    start: "Jun 2015",
+    end: "Jun 2017",
     description:
-      "WordPress and Shopify development: theme customization, plugin implementation, site migrations, and full website rebuilds using Bootstrap and JavaScript.",
+      "Architected and developed a real-time C++ evacuation routing system integrating 6+ sensors and 4 RGB camera feeds (published in Springer IEA/AIE 2017). Built and validated a deep learning computer vision model for early viral disease detection in shrimp under real-world aquaculture conditions.",
   },
 ];
 
-// Non-software roles (Bangla transcription, content writing, physics tutoring,
-// 2018-2020) are intentionally omitted from the public timeline — real history,
-// just not software experience.
-
 export const education: EducationEntry = {
-  degree: "B.Sc. (Hons.) in Electronics & Communication Engineering",
-  institution: "Institute of Science & Technology",
-  institutionUrl: "https://ist.edu.bd/",
-  start: "2015",
-  end: "Feb 2021",
-  note: "Major in Communication",
+  degree: "M.Sc. in Artificial Intelligence & B.Sc. in Computer Engineering",
+  institution: "University of Bologna & ESPOL",
+  institutionUrl: "https://www.unibo.it/",
+  start: "2010",
+  end: "Oct 2022",
+  note: "Focus on Embedded Systems, AUTOSAR, Machine Learning, and Computer Vision",
   achievements: [
-    "Poster Presentation Champion — National Conference on Electronics and Informatics, 2019",
-    "Slide Making Competition Champion",
+    "Master's Thesis on Deep Learning optimization (INT8 quantization & model compression) for Arm Cortex processors",
+    "B.Sc. in Computer Engineering & Electronics from ESPOL (May 2017)",
   ],
   publications: [
-    "Effectiveness of Using Rain Energy as a Power Source in Bangladesh",
-    "Rain Energy Harnessing using Piezoelectric Transducers",
-    "Gold Nano Particles, An Emerging Solution of Cancer",
+    "Real-time Evacuation Routing System combining multi-sensor and RGB camera data (Springer IEA/AIE 2017, DOI: 10.1007/978-3-319-60042-0_15)",
   ],
 };
 
 export const certifications: Certification[] = [
   {
-    title: "Building Web Applications in PHP",
-    issuer: "University of Michigan (Coursera)",
-    year: "2020",
-    credentialId: "5U6TYJY8KP8Y",
-    verifyUrl: "https://www.coursera.org/account/accomplishments/verify/5U6TYJY8KP8Y",
+    title: "Update to Modern C++",
+    issuer: "Udemy",
+    year: "2026",
   },
   {
-    title: "Introduction to Structured Query Language (SQL)",
-    issuer: "University of Michigan (Coursera)",
-    year: "2020",
-    credentialId: "9CPBTJRWEZ98",
+    title: "ROS2 Update 2026",
+    issuer: "Udemy",
+    year: "2026",
   },
   {
-    title: "Top-up IT Training, Web Development (300 hours)",
-    issuer: "LICT Project / Bangladesh Computer Council, certified by George Washington University",
-    year: "2017",
-    credentialId: "G023933",
+    title: "AUTOSAR CEA",
+    issuer: "Vector",
+    year: "2023",
   },
-  { title: "Ajax with PHP: Add Dynamic Content to Websites" },
-  { title: "Frontend Fundamentals" },
-  { title: "Python (Basic)" },
+  {
+    title: "STM32 SW Development",
+    issuer: "TTC",
+    year: "2023",
+  },
 ];

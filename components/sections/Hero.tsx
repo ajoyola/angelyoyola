@@ -76,16 +76,20 @@ export function Hero() {
           </dl>
         </div>
 
-        <div className="relative shrink-0">
-          <Image
-            src={profile.photo}
-            alt={`Portrait of ${profile.name}`}
-            width={256}
-            height={256}
-            priority
-            className="surface-panel h-52 w-52 rounded-2xl object-cover sm:h-64 sm:w-64"
-          />
-        </div>
+        <div className="relative shrink-0 group">
+        {/* Vibrant ambient glow backdrop */}
+          <div className="absolute -inset-1 rounded-3xl bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 opacity-70 blur-md transition duration-300 group-hover:opacity-100" />
+          
+          {/* Larger image with object-top framing for the hardware board */}
+            <Image
+              src={profile.photo}
+              alt={`Portrait of ${profile.name}`}
+              width={320}
+              height={320}
+              priority
+              className="relative surface-panel h-64 w-64 rounded-2xl object-cover object-top shadow-2xl sm:h-80 sm:w-80"
+            />
+          </div>
       </div>
     </section>
   );

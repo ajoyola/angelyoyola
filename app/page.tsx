@@ -18,10 +18,10 @@ export default function HomePage() {
       <Hero />
       <About />
       <Skills />
-      <Resume />
-      <Portfolio />
       <Services />
       <Testimonials />
+      <Portfolio />   
+      <Resume />         
       <Contact />
     </>
   );

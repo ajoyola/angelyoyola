@@ -2,39 +2,39 @@ import { Service } from "./types";
 
 export const services: Service[] = [
   {
-    title: "Backend & API Development",
+    title: "Cross-Functional Technical Leadership & Consulting",
     description:
-      "Django and Django REST Framework backends with clean, well-documented REST APIs designed to be easy to extend and maintain.",
+      "Guiding international engineering teams through complex hardware-software integration, ASPICE processes, requirement specifications, and system validation milestones.",
+    icon: "life-buoy",
+  },
+  {
+    title: "Full-Stack AUTOSAR Consulting & Integration",
+    description:
+      "End-to-end AUTOSAR architecture and BSW/RTE configuration for ARM MCUs. Specializing in CAN, COM, DEM, MCU, NVM, and security modules for high-performance automotive ECUs.",
     icon: "server",
   },
   {
-    title: "Full-Stack Web Development",
+    title: "Production Automotive Embedded Software",
     description:
-      "End-to-end applications pairing a Django/DRF backend with a React or Next.js frontend, from data model to deployed UI.",
+      "Development of production-grade C/C++ software compliant with MISRA C guidelines and ISO 26262 functional safety requirements across Tier-1 and OEM control units.",
     icon: "layers",
   },
   {
-    title: "Docker & Deployment",
+    title: "Edge AI & Embedded Model Optimization",
     description:
-      "Containerized applications with Docker and Docker Compose, deployed with repeatable, automated build and release steps.",
+      "Deployment of deep learning models on constrained hardware. Expertise in INT8 quantization, model pruning, and latency reduction using TensorFlow Lite, ONNX, and TinyML on Arm Processors.",
     icon: "box",
   },
   {
-    title: "Cloud Infrastructure",
+    title: "Driver Monitoring (DMS) & Computer Vision Systems",
     description:
-      "Server setup and management on AWS and DigitalOcean, including Nginx reverse proxies and day-to-day Linux administration.",
+      "Design and deployment of real-time computer vision models for automotive cabin monitoring, multi-camera processing, and real-time sensor fusion systems.",
     icon: "cloud",
   },
   {
-    title: "WordPress & Shopify Development",
+    title: "Automated HIL / SIL Testing & Tooling",
     description:
-      "Theme customization, plugin implementation, migrations, and full storefront or site builds on WordPress and Shopify.",
+      "Custom Python and CAPL test frameworks for ECU verification, sensor/actuator simulation, and automated multi-bus diagnostic validation—reducing manual testing cycles by up to 60%.",
     icon: "shopping-bag",
-  },
-  {
-    title: "Technical Consulting & Support",
-    description:
-      "Architecture review and ongoing support, available seven days a week outside 12 PM–8 PM (GMT+6, Bangladesh time).",
-    icon: "life-buoy",
-  },
+  },  
 ];

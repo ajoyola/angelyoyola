@@ -16,11 +16,11 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <About />
-      <Skills />
       <Services />
-      <Testimonials />
-      <Portfolio />   
+      <Skills />
+      <Portfolio />  
+      <About />
+      <Testimonials />       
       <Resume />         
       <Contact />
     </>

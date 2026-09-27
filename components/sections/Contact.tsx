@@ -52,7 +52,7 @@ export function Contact() {
         <div className="space-y-6">
           <div className="surface-panel overflow-hidden rounded-lg">
             <div className="relative h-40 w-full">
-              <Image src="/images/map.jpg" alt={`Map of ${profile.location}`} fill className="object-cover" />
+              <Image src="/images/contact.PNG" alt={`Map of ${profile.location}`} fill className="object-cover" />
             </div>
           </div>
           <dl className="space-y-4 text-sm">

@@ -16,7 +16,7 @@ export function About() {
       id="about"
       eyebrow="About"
       title="A bit about me"
-      description="Backend-leaning, full stack, and comfortable owning a project end to end."
+      description="Partnering with worldwide teams to deliver production-grade automotive software and real-time AI."
     >
       <div className="grid gap-10 md:grid-cols-2">
         <div className="space-y-4 text-[var(--color-text-muted)]">

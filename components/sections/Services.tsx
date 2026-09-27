@@ -8,8 +8,8 @@ export function Services() {
     <Section
       id="services"
       eyebrow="Services"
-      title="How I can help"
-      description="From backend architecture to deployed infrastructure."
+      title="Ready to power up your Automotive, Embedded & AI projects."
+      description="Explore my 6 core service offerings below."      
     >
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((service) => (

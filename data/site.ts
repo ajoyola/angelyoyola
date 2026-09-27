@@ -1,28 +1,27 @@
 import { SocialLink } from "./types";
 
 export const site = {
-  name: "Saikat Roy",
-  title: "Saikat Roy | Full Stack Software Engineer",
-  url: "https://saikatroy.netlify.app",
+  name: "Angely Oyola",
+  title: "Angely Oyola | Full Stack AUTOSAR Consultant | Edge-AI Engineer",
+  url: "https://angelyoyola.com",
   description:
-    "Saikat Roy is a full stack software engineer in Dhaka, Bangladesh, building backend systems with Python, Django and REST APIs, and frontends with React and Next.js.",
-  gaMeasurementId: "G-1HEC9Z70SZ",
+    "Bridging hardware, code, and AI to build practical real-world solutions.",
+  gaMeasurementId: "",
   defaultOgImage: "/og/default.png",
 };
 
 export const socialLinks: SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/njmsaikat", icon: "github" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/njmsaikat/", icon: "linkedin" },
-  { label: "Twitter", href: "https://twitter.com/njmsaikat", icon: "twitter" },
-  {
-    label: "Stack Overflow",
-    href: "https://stackoverflow.com/users/11168176/saikat-roy",
-    icon: "stackoverflow",
-  },
-  { label: "Fiverr", href: "https://www.fiverr.com/njmsaikat", icon: "fiverr" },
+  { label: "GitHub", href: "https://github.com/ajoyola", icon: "github" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/angely-oyola-suarez/", icon: "linkedin" },
+  
+  //{
+  //  label: "Stack Overflow",
+  //  href: "https://stackoverflow.com/users/11168176/saikat-roy",
+  //  icon: "stackoverflow",
+  //},
   {
     label: "Upwork",
-    href: "https://www.upwork.com/freelancers/~017a6b074dbd601705",
+    href: "https://www.upwork.com/freelancers/~0135fbbdaa0207d9f5",
     icon: "upwork",
   },
 ];

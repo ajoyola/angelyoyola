@@ -6,7 +6,7 @@ export const profile = {
   phone: "+393317558189",
   degree: "MSc. in Artificial Intelligence, BSc. in Computer Engineering with Hands-on Hardware & Electronics",
   freelanceAvailable: true,
-  photo: "/images/angely.PNG",
+  photo: "/images/Angely.PNG",
   // First software role was Aug 2020 (Dokmi BD) — bump this occasionally, not computed live.
   softwareSinceYear: 2015,
   yearsExperience: "10+",

@@ -3,22 +3,26 @@ import { SkillGroup } from "./types";
 export const skillGroups: SkillGroup[] = [
   {
     category: "Languages",
-    skills: ["Python", "JavaScript", "TypeScript", "PHP", "HTML5", "CSS3"],
+    skills: ["C", "C++", "Python", "ROS2"],
   },
   {
-    category: "Frameworks & APIs",
-    skills: ["Django", "Django REST Framework", "Next.js", "React", "REST API Design"],
+    category: "Automotive",
+    skills: ["Vector Tools", "Dianalyzer", "Tresos", "CAN/CANFD", "LIN", "NBC", "Cluster", "TCU", "VCU", "IDC", "NPE", "NFR"],
   },
   {
-    category: "Databases",
-    skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+    category: "Embedded MCUs",
+    skills: ["STM32A", "Infineon TC366", "Infineon Traveo T2G", "Alif B1"],
   },
   {
-    category: "Cloud & DevOps",
-    skills: ["AWS", "DigitalOcean", "Docker", "Nginx", "Linux", "Git & CI/CD"],
+    category: "ISO",
+    skills: ["14229 UDS", "26262 Functional Safety", "21434 Cybersecurity"],
+  },
+  {
+    category: "ML - EdgeAI",
+    skills: ["Tensorflow", "Pytorch", "ONNX", "Executorch", "Scikit-learn", "OpenCV", "Azure", "AWS"],
   },
   {
     category: "Platforms & Tools",
-    skills: ["WordPress", "Shopify", "cPanel", "FileZilla"],
+    skills: ["Git & CI/CD", "Bitbucket", "Docker", "Jira", "Polarion", "ClickUp", "Linux"],
   },
 ];

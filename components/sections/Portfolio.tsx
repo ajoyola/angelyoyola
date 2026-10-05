@@ -9,7 +9,7 @@ export function Portfolio() {
       id="portfolio"
       eyebrow="Portfolio"
       title="Featured work"
-      description="A mix of open-source repositories and client projects. Most of my production work at YOUR Campus and for freelance clients lives in private repositories under NDA — the skills and experience above reflect that work even where the code itself can't be shown."
+      description="Most of my production work lives in private repositories under NDA. Below a snap of the open-source projects I have developed."
       className="bg-[var(--color-bg-elevated)]"
     >
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

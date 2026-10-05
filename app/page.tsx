@@ -20,7 +20,6 @@ export default function HomePage() {
       <Skills />
       <Portfolio />  
       <About />
-      <Testimonials />       
       <Resume />         
       <Contact />
     </>
